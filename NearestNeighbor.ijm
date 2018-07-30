@@ -1,3 +1,7 @@
+// Kota Miura
+// 20180730 The first version
+// This macro assumes that there is already measured values for "X" and "Y" in the Results table. 
+
 function returnDistance2D(x1, y1,  x2, y2){
     dist2D = pow( (pow((x1-x2), 2) + pow((y1-y2), 2)  ), 0.5);
     return dist2D;
